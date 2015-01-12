@@ -40,7 +40,7 @@ public class GameView extends SurfaceView implements Runnable {
 		SurfaceHolder holder = getHolder();
 		holder.addCallback(new Callback() {
 
-			@Override
+			
 			public void surfaceCreated(SurfaceHolder holder) {
 				initInput();
 				if (currentState == null) {
@@ -49,13 +49,13 @@ public class GameView extends SurfaceView implements Runnable {
 				initGame();
 			}
 
-			@Override
+			
 			public void surfaceChanged(SurfaceHolder holder, int format,
 					int width, int height) {
 				// TODO Auto-generated method stub
 			}
 
-			@Override
+			
 			public void surfaceDestroyed(SurfaceHolder holder) {
 				pauseGame();
 			}

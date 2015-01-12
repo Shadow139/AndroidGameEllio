@@ -27,10 +27,10 @@ public class GameMainActivity extends Activity {
 	}
 
 	public static void setHighScore(int highScore) {
-		GameMainActivity.highScore = highScore;
+	/*	GameMainActivity.highScore = highScore;
 		Editor editor = prefs.edit();
 		editor.putInt(highScoreKey, highScore);
-		editor.commit();
+		editor.commit();*/
 	}
 
 	private int retrieveHighScore() {
